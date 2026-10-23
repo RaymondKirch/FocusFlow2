@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F6FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/focus_flow"
+           android:textColor="#6554c0"
+           android:textSize="14sp"
+           android:textStyle="bold"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/welcome_back"
+            android:textColor="#24213A"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/small_steps"
+            android:textColor="#6F6B80"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#6554C0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_star_points"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtStarPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/star_points"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/session_counts"
+                android:textColor="#E8E3FF"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/study_space"
+            android:textColor="#24213A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnStudy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:minHeight="56dp"
+            android:text="@string/start_study"
+            android:textAllCaps="false"
+            android:backgroundTint="#6554C0"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="56dp"
+            android:text="@string/my_tasks"
+            android:textAllCaps="false"
+            android:backgroundTint="#E8E4FA"
+            android:textColor="#33266F" />
+
+        <Button
+            android:id="@+id/btnRewards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="56dp"
+            android:text="@string/rewards"
+            android:textAllCaps="false"
+            android:backgroundTint="#E8E4FA"
+            android:textColor="#33266F" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="56dp"
+            android:text="@string/settings"
+            android:textAllCaps="false"
+            android:backgroundTint="#E8E4FA"
+            android:textColor="#33266F" />
+
+        <Button
+            android:id="@+id/btnStudyHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="56dp"
+            android:text="Study History"
+            android:textAllCaps="false"
+            android:backgroundTint="#E8E4FA"
+            android:textColor="#33266F" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/progress_quote"
+            android:textColor="#777187"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</ScrollView>

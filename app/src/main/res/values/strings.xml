@@ -1,0 +1,38 @@
+
+<resources>
+    <string name="app_name">FocusFlow</string>
+
+    <string name="focus_flow">FOCUS-FLOW</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="small_steps">Small steps today, big progress tomorrow.</string>
+    <string name="your_star_points">YOUR STAR POINTS</string>
+    <string name="star_points">★ 0 stars</string>
+    <string name="session_counts">Every focused session counts!</string>
+    <string name="study_space">Your study space</string>
+    <string name="start_study">Start a study session</string>
+    <string name="my_tasks">My tasks</string>
+    <string name="rewards">Rewards and achievements</string>
+    <string name="settings">Settings</string>
+    <string name="progress_quote">Focus on progress, not perfection.</string>
+
+    <string name="back_home">Back to dashboard</string>
+    <string name="study_session">Study Session</string>
+    <string name="study_duration">Study duration (minutes)</string>
+    <string name="clock_in">Clock in</string>
+    <string name="clock_out">Clock out</string>
+    <string name="not_studying">Not currently studying</string>
+    <string name="timer_ready">Your timer will appear here.</string>
+    <string name="task_title">Enter a task</string>
+    <string name="add_task">Add task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="delete_task">Delete</string>
+    <string name="mark_complete">Complete</string>
+    <string name="mark_incomplete">Undo completion</string>
+    <string name="no_tasks">No tasks yet. Add your first task!</string>
+    <string name="total_study_time">Total study time</string>
+    <string name="sessions_completed">Sessions completed</string>
+    <string name="reminders">Study reminders</string>
+    <string name="preferred_duration">Preferred study duration (minutes)</string>
+    <string name="save_settings">Save settings</string>
+    <string name="settings_saved">Settings saved.</string>
+</resources>
